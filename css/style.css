@@ -4,6 +4,17 @@
     --gris : #f5f5f5;
 }
 
+body{
+    font-family: sans-serif;
+    color: #303030;
+}
+
+p{
+    font-weight: 300;
+    line-height: 2rem;
+    font-size: 1rem;
+}
+
 .nav-link{
     color: black;
 }
@@ -15,6 +26,28 @@
 .nav-link.active{
     color: var(--primario);
     border-bottom: 2px solid var(--primario);
+}
+
+.bg-light{
+    background-color: white!important;
+    border: 1px solid #e1e1e1;
+    position: relative;
+    z-index: 100;
+}
+
+/* Imagenes de fondo */
+.imagen-destacada{
+    height: 24rem;
+    background-size: cover;
+}
+
+.nosotros-bg{
+    background-image: url(../img/principal1.jpg);
+}
+
+/* Nosotros */
+.contenido-nosotros{
+    margin-top: -5rem;
 }
 
 .copyright{
