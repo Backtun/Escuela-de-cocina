@@ -35,6 +35,17 @@ p{
     z-index: 100;
 }
 
+.separador::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    background-image: url(../img/separador.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /* Imagenes de fondo */
 .imagen-destacada{
     height: 24rem;
